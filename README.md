@@ -42,3 +42,4 @@ The following repositories have been used to compile these instructions:
     (fork of https://github.com/jaejunlee0538/sensable_phantom_in_linux)
   * https://github.com/adeguet1/phantom_omni
     (fork of https://github.com/fsuarez6/phantom_omni)
+  * https://github.com/MurpheyLab/trep_omni
