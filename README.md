@@ -21,9 +21,9 @@ In plain english:
   
 In script (you will need sudo privileges):
 ```bash
-   mkdir ~/jhu-phantom-omni-drivers     # get the files
-   git clone https://git.lcsr.jhu.edu/phantom-omni/drivers
+   mkdir -p ~/jhu-phantom-omni-drivers     # get the files
    cd ~/jhu-phantom-omni-drivers/drivers
+   git clone https://git.lcsr.jhu.edu/phantom-omni/drivers
    sudo ./install-jhu-omni-drivers.sh
 ```
    
