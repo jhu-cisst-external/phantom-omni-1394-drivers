@@ -27,7 +27,11 @@ In script (you will need sudo privileges):
    cd ~/jhu-phantom-omni-drivers/drivers
    sudo ./install-jhu-omni-drivers.sh
 ```
-   
+
+To remove all files:
+```bash
+   sudo ./uninstall-jhu-omni-drivers.sh
+```
 
 # Notes
 
