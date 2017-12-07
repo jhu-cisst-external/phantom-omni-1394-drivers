@@ -29,6 +29,7 @@ strip ./Linux_JUJU_PDD_64-bit/PHANToMConfiguration
 cp  ./Linux_JUJU_PDD_64-bit/libPHANToMIO.so.4.3 /usr/lib64
 ln -s /usr/lib64/libPHANToMIO.so.4.3 /usr/lib64/libPHANToMIO.so.4
 ln -s /usr/lib64/libPHANToMIO.so.4.3 /usr/lib64/libPHANToMIO.so
+cp ./Linux_JUJU_PDD_64-bit/PHANToMConfiguration /usr/sbin
 
 # configure ld.conf and reload ld conf
 echo "/usr/lib64" > /etc/ld.so.conf.d/openhaptics.conf
