@@ -47,6 +47,7 @@ The following repositories have been used to compile these instructions:
   * https://github.com/adeguet1/phantom_omni
     (fork of https://github.com/fsuarez6/phantom_omni)
   * https://github.com/MurpheyLab/trep_omni
+  * http://robotics.mech.northwestern.edu/%7Ejarvis/omni-install.md
 
 ## Comments
 
