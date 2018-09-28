@@ -2,7 +2,7 @@
 
 The goal of these notes is to document how to install the Phanton Omni drivers
 as well as the OpenHaptics SDK (education version) on Ubuntu.  This was
-successfuly tested on Ubuntu 16.04 LTS 64 bits.
+successfuly tested on Ubuntu 16.04 and 18.04 LTS 64 bits.
 
 The approach of this install is to use the default `.deb` files as
 much as possible and avoid copying/moving files and links across
@@ -36,6 +36,16 @@ To remove all files:
    cd ~/jhu-phantom-omni-drivers/drivers
    sudo ./uninstall-jhu-omni-drivers.sh
 ```
+
+# Other dependencies
+
+The drivers come with two executables: `PHANToMConfiguration` and `PHANToMTest`.
+The test program is compiled against libraw1394.so.8 which is not available on Ubuntu 16.04 and 18.04 so it's hard to get it working.
+The configuration utility works but you might need to install `libGLs`.   For this, use the package `sudo apt install libglw-mesa`.
+
+# Configuration
+
+Use the program `PHANTOMConfiguration` *with sudo privileges*.   Click "Add", enter a name for the device, select the arm type (i.e. Omni) and then clicj "Apply" and "OK" to quit. 
 
 # Notes
 
