@@ -41,7 +41,7 @@ To remove all files:
 
 The drivers come with two executables: `PHANToMConfiguration` and `PHANToMTest`.
 The test program is compiled against libraw1394.so.8 which is not available on Ubuntu 16.04 and 18.04 so it's hard to get it working.
-The configuration utility works but you might need to install `libGLs`.   For this, use the package `sudo apt install libglw-mesa`.
+The configuration utility works but you might need to install `libGLs`.  It can be installed using apt with `sudo apt install libglw-mesa` on Ubuntu 16.04 or `sudo apt install libglw1-mesa` on Ubuntu 18.04.
 
 # Configuration
 
