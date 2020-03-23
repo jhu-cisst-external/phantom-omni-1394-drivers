@@ -1,6 +1,6 @@
 # Introduction
 
-The goal of these notes is to document how to install the Phanton Omni drivers
+The goal of these notes is to document how to install the Phanton Omni drivers (for the FireWire version, i.e. 1394)
 as well as the OpenHaptics SDK (education version) on Ubuntu.  This was
 successfuly tested on Ubuntu 16.04 and 18.04 LTS 64 bits.
 
@@ -12,8 +12,7 @@ installed under /opt to isolate all the Phantom files.
 
 # Instructions
 
-In plain english:
-  * Download this repository
+First download this repository.  Then use the script as described below.  The script will:
   * In directory `files`, uncompress all archives (`.tgz` and `.zip`)
   * Using `dpkg`, install the two `.deb` files provided by the vendor (driver
     and SDK)
@@ -24,16 +23,16 @@ In plain english:
   
 In script (you will need sudo privileges):
 ```bash
-   mkdir -p ~/jhu-phantom-omni-drivers     # get the files
-   cd ~/jhu-phantom-omni-drivers
-   git clone https://git.lcsr.jhu.edu/phantom-omni/drivers
-   cd ~/jhu-phantom-omni-drivers/drivers
+   mkdir -p ~/phantom-omni-1394-drivers     # get the files
+   cd ~/phantom-omni-1394-drivers
+   git clone https://github.com/jhu-cisst-external/phantom-omni-1394-drivers
+   cd ~/phantom-omni-1394-drivers/phantom-omni-1394-drivers
    sudo ./install-jhu-omni-drivers.sh
 ```
 
 To remove all files:
 ```bash
-   cd ~/jhu-phantom-omni-drivers/drivers
+   cd ~/phantom-omni-1394-drivers/phantom-omni-1394-drivers
    sudo ./uninstall-jhu-omni-drivers.sh
 ```
 
