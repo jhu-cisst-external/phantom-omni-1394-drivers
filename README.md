@@ -27,13 +27,14 @@ In script (you will need sudo privileges):
    cd ~/phantom-omni-1394-drivers
    git clone https://github.com/jhu-cisst-external/phantom-omni-1394-drivers
    cd ~/phantom-omni-1394-drivers/phantom-omni-1394-drivers
-   sudo ./install-jhu-omni-drivers.sh
+   sudo ./install-omni-drivers.sh # finally run the install script
+   sudo rm -rf Linux_JUJU_PDD_64-bit OpenHapticsAE_Linux_v3_0  # this is just to clean temporary files
 ```
 
 To remove all files:
 ```bash
    cd ~/phantom-omni-1394-drivers/phantom-omni-1394-drivers
-   sudo ./uninstall-jhu-omni-drivers.sh
+   sudo ./uninstall-omni-drivers.sh
 ```
 
 # Other dependencies
