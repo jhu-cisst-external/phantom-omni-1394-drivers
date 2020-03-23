@@ -27,13 +27,13 @@ In script (you will need sudo privileges):
    cd ~/phantom-omni-1394-drivers
    git clone https://github.com/jhu-cisst-external/phantom-omni-1394-drivers
    cd ~/phantom-omni-1394-drivers/phantom-omni-1394-drivers
-   sudo ./install-jhu-omni-drivers.sh
+   sudo ./install-omni-drivers.sh
 ```
 
 To remove all files:
 ```bash
    cd ~/phantom-omni-1394-drivers/phantom-omni-1394-drivers
-   sudo ./uninstall-jhu-omni-drivers.sh
+   sudo ./uninstall-omni-drivers.sh
 ```
 
 # Other dependencies
