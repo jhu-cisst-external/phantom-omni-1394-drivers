@@ -6,9 +6,9 @@ successfuly tested on Ubuntu 16.04 and 18.04 LTS 64 bits.
 
 The approach of this install is to use the default `.deb` files as
 much as possible and avoid copying/moving files and links across
-directories as much as possible.  An alternative solution would be to
-extract all the files and create a separate archive/tree that could be
-installed under /opt to isolate all the Phantom files.
+directories when avoidable.
+
+This can be used in combination with https://github.com/jhu-saw/sawSensablePhantom.  The `devel` branch has ROS support for the Phantom Omni.
 
 # Instructions
 
