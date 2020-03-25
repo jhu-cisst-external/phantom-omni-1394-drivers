@@ -4,9 +4,7 @@ The goal of these notes is to document how to install the Phanton Omni drivers (
 as well as the OpenHaptics SDK (education version) on Ubuntu.  This was
 successfuly tested on Ubuntu 16.04 and 18.04 LTS 64 bits.
 
-The approach of this install is to use the default `.deb` files as
-much as possible and avoid copying/moving files and links across
-directories when avoidable.
+The approach of this install is to use the default `.deb` files, avoid copying/moving files and creating symbolic links as much as possible
 
 This can be used in combination with https://github.com/jhu-saw/sawSensablePhantom.  The `devel` branch has ROS support for the Phantom Omni.
 
