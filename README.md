@@ -52,8 +52,7 @@ Use the program `PHANTOMConfiguration` *with sudo privileges*.   Click "Add", en
 ## Links
 
 The following repositories have been used to compile these instructions:
-  * https://github.com/adeguet1/sensable_phantom_in_linux
-    (fork of https://github.com/jaejunlee0538/sensable_phantom_in_linux)
+  * https://github.com/jaejunlee0538/sensable_phantom_in_linux
   * https://github.com/adeguet1/phantom_omni
     (fork of https://github.com/fsuarez6/phantom_omni)
   * https://github.com/MurpheyLab/trep_omni
