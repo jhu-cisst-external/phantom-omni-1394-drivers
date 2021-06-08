@@ -8,6 +8,8 @@ The approach of this install is to use the default `.deb` files, avoid copying/m
 
 This can be used in combination with https://github.com/jhu-saw/sawSensablePhantom.  The `devel` branch has ROS support for the Phantom Omni.
 
+To install the drivers and SDK for a more recent GeoMagic/3DS Touch device, see also https://github.com/jhu-cisst-external/3ds-touch-openhaptics
+
 # Instructions
 
 First download this repository.  Then use the script as described below.  The script will:
