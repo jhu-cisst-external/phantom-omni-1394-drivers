@@ -51,7 +51,7 @@ Use the program `PHANTOMConfiguration` *with sudo privileges*.   Click "Add", en
 
 ## Documentation
 
-There's a document to install the drivers that is included in the drivers (catch 22).  Once you installed the drivers, you can find the vendor's installation instructions on your PC:
+There's a document detailling how to install the drivers that is included in the drivers (catch 22).  Once you installed the drivers, you can find the vendor's instructions on your PC:
 ```sh
 evince /usr/share/PHANTOM/doc/HW_userguide_Linux.pdf
 ```
