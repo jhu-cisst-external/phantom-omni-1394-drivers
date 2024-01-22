@@ -21,7 +21,7 @@ First download this repository.  Then use the script as described below.  The sc
   * Configure your system to find the shared libraries in `/usr/lib64`
   * Configure your permissions for the FireWire port
   
-In script (you will need sudo privileges):
+Install script (you will need sudo privileges):
 ```bash
    mkdir -p ~/phantom-omni-1394-drivers     # get the files
    cd ~/phantom-omni-1394-drivers
