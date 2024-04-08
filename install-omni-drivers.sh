@@ -6,7 +6,7 @@
 # this script will only handle 64 bits OSs
 
 # some ubuntu requirements
-sudo apt-get install --show-progress libglw1-mesa-dev libraw1394-11-dev libraw1394-dev libgl1-mesa-glx libgl1-mesa-dri
+sudo apt-get install --show-progress libglw1-mesa libglw1-mesa-dev libraw1394-11-dev libraw1394-dev libgl1-mesa-glx libgl1-mesa-dri libncurses5
 
 # remove uncompressed files from previous runs of this script
 rm -rf Linux_JUJU_PDD_64-bit OpenHapticsAE_Linux_v3_0
