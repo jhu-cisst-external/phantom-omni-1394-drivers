@@ -2,7 +2,7 @@
 
 The goal of these notes is to document how to install the Phanton Omni drivers (for the FireWire version, i.e. 1394)
 as well as the OpenHaptics SDK (education version) on Ubuntu.  This was
-successfuly tested on Ubuntu 16.04, 18.04 and 20.04 LTS 64 bits.
+successfuly tested on Ubuntu 16.04, 18.04, 20.04 and 22.04 LTS 64 bits.
 
 The approach of this install is to use the default `.deb` files, avoid copying/moving files and creating symbolic links as much as possible
 
@@ -41,7 +41,7 @@ To remove all files:
 
 The drivers come with two executables: `PHANToMConfiguration` and `PHANToMTest`.
 The test program is compiled against libraw1394.so.8 which is not available on Ubuntu 16.04, 18.04 or 20.04 so it's hard to get it working.
-The configuration utility works but you might need to install `libGLs`.  It can be installed using apt with `sudo apt install libglw-mesa` on Ubuntu 16.04 or `sudo apt install libglw1-mesa` on Ubuntu 18.04 and 20.04.
+The configuration utility works but you might need to install `libGLs`.  It can be installed using apt with `sudo apt install libglw-mesa` on Ubuntu 16.04 or `sudo apt install libglw1-mesa` on Ubuntu 18.04, 20.04 and 22.04.
 
 # Configuration
 
